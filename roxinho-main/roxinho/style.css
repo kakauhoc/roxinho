@@ -1,13 +1,13 @@
-@import url("styles/header.css");
+@import url(styles/header.css);
 :root{
-   --cor-de-fundo:#F1D9FA;
-    --cor-do-texto1:#531F73;
-    --cor-do-texto2:#6134C1;
-    --cor-do-texto3:#0000;
-    --cor-do-texto4:#ffff;
+   --cor-de-fundo:#FFFFFF;
+    --cor-do-texto:#531F73;
+    --cor-do-texto:#6134C1;
+    --cor-do-texto:#0000;
+    --cor-do-texto:#ffff;
     --destaque:purple;
     --links: #000;
 }
-.cabecalho{
-    background-color: var(--cor-de-fundo);
+body{
+    background-color: var(cor-de-fundo);
 }
