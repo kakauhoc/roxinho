@@ -1,8 +1,49 @@
 .cabecalho-menu-hamburguer{
     width: 24px;;
     height: 24px;
-    background-image: url("../img/Frame\ 20.png");
+    background-image: url("../img/Menu\ Aberto.png");
     display: inline-block;
     background-repeat: no-repeat;
     background-position:center;
     }
+    .cabecalho{
+
+        background-color: var(--cor-do-text0);
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        position:relative;
+    }
+    .container{
+        display:flex;
+        align-items:center;
+    }
+    .container-imagem{
+        padding:1 em;
+    }
+    .lista-menu{
+        display: none;
+        position:absolute;
+        top:100%;
+        width:60 vw;
+    }
+    .lista-menu-titulo,.lista-menu-item{
+        padding:1em;
+        background-color:blueviolet;
+    }
+    .container-botao:checked ~.lista-menu{
+        display:block;
+     }
+     
+       .lista-menu-link{
+        background-color:var(--links);
+        -webkit-background-clip:text;
+        -webkit-text-fill-color:black;
+        background-clip:text;
+        text-transform:uppercase;
+        text-decoration:none;
+     }
+     .container-botao{
+        display:none;
+     }
+    
